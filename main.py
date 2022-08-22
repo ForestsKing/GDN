@@ -15,9 +15,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=32)
 
     parser.add_argument('-dim', type=int, default=64)
-    parser.add_argument('-out_layer_num', type=int, default=1)
     parser.add_argument('-topk', type=int, default=5)
-    parser.add_argument('-out_layer_inter_dim', type=int, default=128)
 
     parser.add_argument('--dataset', type=str, default='MSL')
     parser.add_argument('--data_dir', type=str, default='./dataset/')
